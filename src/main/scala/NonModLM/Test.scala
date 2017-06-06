@@ -42,7 +42,7 @@ object Test {
 
   def main(args: Array[String]): Unit = {
     print("Calculus name: ")
-    val name = StdIn.readLine()
+    val name = StdIn.readLine().toLowerCase
 
     val fn: String => Unit = name match {
       case "arith" => parseAndPrint(ArithParsers.input, ArithPrinter.ptm)
