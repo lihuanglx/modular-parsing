@@ -40,7 +40,7 @@ Enter number: 1
 Calculus name:
 ```
 
-3. Enter a calculus name (case-insensitive). It will parse every line from file `examples/{calculus name}.tapl`, and pretty-print the AST. Those files contain randomly generated expressions, one per line.
+3. Enter a calculus name (case-insensitive). It will parse every line from file `examples/{calculus-name}.tapl`, and pretty-print the AST. Those files contain randomly generated expressions, one per line.
 
 ## List of calculus names
 
